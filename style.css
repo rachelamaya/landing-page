@@ -43,5 +43,16 @@ ul {
 
 .title {
     font-size: 48px;
-    
+    font-weight: extra-bold;
+    color: #f9f8fa;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgs {
+    display: flex;
+
 }
