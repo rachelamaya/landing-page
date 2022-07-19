@@ -38,7 +38,10 @@ ul {
 
 .hook {
     display: flex;
+}
 
+.about {
+    display: flex;
 }
 
 .title {
