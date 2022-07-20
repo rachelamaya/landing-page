@@ -3,21 +3,21 @@ body {
     flex-direction: column;
     font-family: Roboto, sans-serif;
     justify-content: space-between;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .hero {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     background-color: #1f2937;
     flex: 0 1 auto;
-    height: 400px;
-    justify-content: space-between;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
+    flex: 1;
+    margin: 10px;
 }
 
 .header a {
@@ -41,24 +41,59 @@ ul {
 
 .hook {
     display: flex;
+    
 }
 
 .about {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .title {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #f9f8fa;
 }
 
 .info {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+}
+
+.header2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
 }
 
 .imgs {
     display: flex;
+}
 
+.quote {
+    background-color: #e5e7eb;
+}
+
+.qtxt {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.button {
+    background-color: #3882f6;
+    color: #ffff;
+    border-radius: 10px;
+
+}
+
+.action {
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #ffff;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #ffff;
 }
