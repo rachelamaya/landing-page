@@ -10,6 +10,9 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
+    flex: 0 1 auto;
+    height: 400px;
+    justify-content: space-between;
 }
 
 .header {
