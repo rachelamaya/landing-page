@@ -3,12 +3,16 @@ body {
     flex-direction: column;
     font-family: Roboto, sans-serif;
     min-height: 100vh;
+    flex: 1;
 }
+
+/* Need to rethink the structure of website */
 
 .hero {
     display: flex;
     flex-wrap: wrap;
     background-color: #1f2937;
+    flex: 1;
 }
 
 .header {
@@ -56,6 +60,7 @@ ul {
 .info {
     display: flex;
     flex-direction: column; 
+    flex: 1;
 }
 
 .header2 {
@@ -70,6 +75,7 @@ ul {
 
 .quote {
     background-color: #e5e7eb;
+    flex: 1;
 }
 
 .qtxt {
@@ -89,9 +95,11 @@ ul {
     background-color: #3882f6;
     border-radius: 10px;
     color: #ffff;
+    flex: 1;
 }
 
 .footer {
     background-color: #1f2937;
     color: #ffff;
+    flex: 1;
 }
