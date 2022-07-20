@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
-    justify-content: space-between;
     min-height: 100vh;
 }
 
@@ -10,7 +9,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     background-color: #1f2937;
-    flex: 0 1 auto;
 }
 
 .header {
@@ -39,7 +37,7 @@ ul {
     gap: 10px;
 }
 
-.hook {
+.middle {
     display: flex;
     
 }
