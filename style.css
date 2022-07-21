@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     font-family: Roboto, sans-serif;
     min-height: 100vh;
+    flex: 1;
 }
 
 /* Need to rethink the structure of website */
@@ -12,13 +13,13 @@ body {
     flex-wrap: wrap;
     background-color: #1f2937;
     flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
-    flex: 1;
-    margin: 10px;
 }
 
 .header a {
@@ -30,6 +31,7 @@ body {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    margin-right: auto;
 }
 
 ul {
@@ -42,6 +44,7 @@ ul {
 
 .middle {
     display: flex;
+    gap: 40px;
 }
 
 .middle .txt {
@@ -52,6 +55,14 @@ ul {
     display: flex;
     flex-wrap: wrap;
     width: 400px;
+}
+
+.img1 {
+    width: 400px;
+    background-color: #808080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .title {
