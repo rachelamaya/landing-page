@@ -3,7 +3,6 @@ body {
     flex-direction: column;
     font-family: Roboto, sans-serif;
     min-height: 100vh;
-    flex: 1;
 }
 
 /* Need to rethink the structure of website */
@@ -43,12 +42,16 @@ ul {
 
 .middle {
     display: flex;
-    
+}
+
+.middle.txt {
+    flex-shrink: 2;
 }
 
 .about {
     display: flex;
     flex-wrap: wrap;
+    width: 400px;
 }
 
 .title {
