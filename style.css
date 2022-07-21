@@ -44,8 +44,8 @@ ul {
     display: flex;
 }
 
-.middle.txt {
-    flex-shrink: 2;
+.middle .txt {
+    color: #e5e7eb;
 }
 
 .about {
