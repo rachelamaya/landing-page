@@ -12,15 +12,14 @@ body {
     flex-wrap: wrap;
     background-color: #1f2937;
     flex-direction: column;
-    justify-content: space-around;
     align-content: space-around;
-    gap: 50px;
+    gap: 70px;
     height: 400px;
 }
 
 .header {
     display: flex;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .header a {
@@ -46,7 +45,6 @@ ul {
 .middle {
     display: flex;
     gap: 40px;
-    margin-bottom: 80px;
 }
 
 .middle .txt {
