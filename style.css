@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
-    min-height: 100vh;
     flex: 1;
 }
 
@@ -12,15 +11,16 @@ body {
     display: flex;
     flex-wrap: wrap;
     background-color: #1f2937;
-    flex: 1;
     flex-direction: column;
     justify-content: space-around;
     align-content: space-around;
     gap: 50px;
+    height: 400px;
 }
 
 .header {
     display: flex;
+    margin-top: 10px;
 }
 
 .header a {
@@ -67,10 +67,6 @@ ul {
     justify-content: center;
 }
 
-.middle .button {
-
-}
-
 .title {
     font-size: 48px;
     font-weight: 800;
@@ -80,7 +76,7 @@ ul {
 .info {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    height: 400px;
 }
 
 .header2 {
@@ -91,19 +87,19 @@ ul {
 
 .imgs {
     display: flex;
+    
 }
 
 .img2 {
     width: 150px;
     height: 100px;
-    border-color: #3882f6;
+    border: solid #3882f6;
     border-radius: 20px;
-    border-style: solid;
 }
 
 .quote {
     background-color: #e5e7eb;
-    flex: 1;
+    height: 350px;
 }
 
 .qtxt {
@@ -127,11 +123,11 @@ ul {
     background-color: #3882f6;
     border-radius: 10px;
     color: #ffff;
-    flex: 1;
+    height: 250px;
 }
 
 .footer {
     background-color: #1f2937;
     color: #ffff;
-    flex: 1;
+    height: 70px;
 }
