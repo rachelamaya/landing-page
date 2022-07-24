@@ -16,6 +16,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-content: space-around;
+    gap: 50px;
 }
 
 .header {
@@ -45,6 +46,7 @@ ul {
 .middle {
     display: flex;
     gap: 40px;
+    margin-bottom: 80px;
 }
 
 .middle .txt {
@@ -58,7 +60,7 @@ ul {
 }
 
 .img1 {
-    width: 400px;
+    width: 500px;
     background-color: #808080;
     display: flex;
     align-items: center;
