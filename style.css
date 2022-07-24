@@ -74,18 +74,20 @@ ul {
 .info {
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: 350px;
+    gap: 30px;
+    text-align: center;
 }
 
 .header2 {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+    margin: 25px auto;
 }
 
 .imgs {
     display: flex;
-    
 }
 
 .img2 {
@@ -97,7 +99,7 @@ ul {
 
 .quote {
     background-color: #e5e7eb;
-    height: 350px;
+    height: 300px;
 }
 
 .qtxt {
