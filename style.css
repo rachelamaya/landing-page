@@ -67,6 +67,10 @@ ul {
     justify-content: center;
 }
 
+.middle .button {
+
+}
+
 .title {
     font-size: 48px;
     font-weight: 800;
@@ -103,8 +107,12 @@ ul {
 .button {
     background-color: #3882f6;
     color: #ffff;
-    border-radius: 10px;
-
+    border-radius: 8px;
+    padding: 5px;
+    width: 100px;
+    margin-top: 10px;
+    border-style: none;
+    font-weight: 800;
 }
 
 .action {
