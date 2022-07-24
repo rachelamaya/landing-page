@@ -79,7 +79,7 @@ ul {
 
 .info {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     flex: 1;
 }
 
@@ -91,6 +91,14 @@ ul {
 
 .imgs {
     display: flex;
+}
+
+.img2 {
+    width: 150px;
+    height: 100px;
+    border-color: #3882f6;
+    border-radius: 20px;
+    border-style: solid;
 }
 
 .quote {
