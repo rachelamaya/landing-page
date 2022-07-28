@@ -107,13 +107,19 @@ ul {
 
 .quote {
     background-color: #e5e7eb;
-    height: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .qtxt {
     font-size: 36px;
     font-style: italic;
+    font-weight: 200;
     color: #1f2937;
+    max-width: 850px;
 }
 
 .button {
