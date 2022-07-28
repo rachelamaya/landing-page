@@ -127,8 +127,9 @@ ul {
 
 .author {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     align-self: flex-end;
+    font-size: 24px;
 }
 
 .button {
