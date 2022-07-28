@@ -142,10 +142,18 @@ ul {
 }
 
 .action {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup {
     background-color: #3882f6;
     border-radius: 10px;
     color: #ffff;
-    height: 250px;
+    width: 800px;
+    height: 150px;
 }
 
 .footer {
