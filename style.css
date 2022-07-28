@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     font-family: Roboto, sans-serif;
     flex: 1;
+    margin: 0;
 }
 
 /* Need to rethink the structure of website */
@@ -169,4 +170,7 @@ ul {
     background-color: #1f2937;
     color: #ffff;
     height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
