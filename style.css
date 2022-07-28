@@ -74,7 +74,7 @@ ul {
 .info {
     display: flex;
     flex-direction: column;
-    height: 350px;
+    height: 400px;
     gap: 30px;
     text-align: center;
 }
@@ -88,13 +88,21 @@ ul {
 
 .imgs {
     display: flex;
+    gap: 52px;
+    justify-content: center;
 }
 
 .img2 {
     width: 150px;
-    height: 100px;
+    height: 150px;
     border: solid #3882f6;
     border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 150px;
 }
 
 .quote {
